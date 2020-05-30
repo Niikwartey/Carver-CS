@@ -1,0 +1,87 @@
+.BudgetPlanner {
+  padding: 30px;
+}
+
+.BudgetPlanner .container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.BudgetPlanner header > div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.BudgetPlanner .successMessage {
+  height: 2.5em;
+}
+
+.BudgetPlanner .successMessage > p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 13px;
+  background-color: rgba(0, 200, 0, 0.2);
+  border-radius: 3px;
+  margin-bottom: 20px;
+  transition: all .3s;
+}
+
+.BudgetPlanner .budgetItem {
+  line-height: 2.5em;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 50%;
+  min-width: 300px;
+  border-top: 1px solid #ddd;
+}
+
+.BudgetPlanner .budgetItem:first-of-type {
+  border-top: none;
+}
+
+.BudgetPlanner .budgetItem .name {
+  font-weight: 600;
+}
+
+.BudgetPlanner .budgetItem.salary .inputBox {
+  border: 1px solid #777;
+  line-height: 20px;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.BudgetPlanner .budgetItem.salary input {
+  border: none;
+  outline: none;
+  height: 16px;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.BudgetPlanner .edit {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.BudgetPlanner .edit button {
+  width: 100px;
+  height: 40px;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  background-color: coral;
+}
+
+.BudgetPlanner .edit button.saveMode {
+  background-color: #efefef;
+  color: #777;
+}
